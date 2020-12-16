@@ -1,0 +1,20 @@
+{
+  "name": "sample-cognito",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/uttne/sample-cognito.git",
+  "author": "uttne <uttne.mkr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "node-fetch": "^2.6.1"
+  }
+}
